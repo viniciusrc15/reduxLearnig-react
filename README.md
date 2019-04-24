@@ -13,10 +13,6 @@
 * Webpack tree shaking!
 * [Preact](https://preactjs.com/) for production build (optional)
 
-## Dependencies:
-
-- Node.js `>=` v6;
-
 ## Up and running
 
 - Clone this repository: `git clone git@github.com:fdaciuk/workflow-reactjs.git`;
@@ -24,16 +20,6 @@
 - Install dependencies: `yarn` (or `npm i`);
 - Run `yarn dev` (or `npm start`) to develop on `http://localhost:3000`
 - Run `yarn build` (or `npm run build`) for production build (files will be generated on `dist` directory)
-
-## Troubleshooting
-
-If you are on Windows, and try to run `yarn lint`, you'll get an error
-because `spawn` module does not work very well on Windows.
-
-You should install `cross-spawn`, and edit `gulpfile.js`, removing line `4` and
-uncomment line `7`.
-
-A big thanks to [@hgtpcastro](https://github.com/hgtpcastro) for this tip.
 
 ## Scripts
 
@@ -46,7 +32,3 @@ A big thanks to [@hgtpcastro](https://github.com/hgtpcastro) for this tip.
 - `yarn storybook:build`: Build Storybook to static files
 - `yarn update-packages`: Update all packages to the latest version
 - `yarn start (or npm start)`: Special script reserved to run production code. Change as you wish. For now, it is the same as `yarn dev`.
-
-## License
-
-[MIT](https://github.com/fdaciuk/licenses/blob/master/MIT-LICENSE.md) &copy; Fernando Daciuk
